@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="learning.js"></script>
+</head>
+<!--<a>
+<p id="say hello"></p>
+    <!--<input type="text", id="takevalue">
+<********************************************************************************88 my first program";
+<!--<script >
+ /*   var yourname = prompt("what is your name");
+    var balance = 1234.34;
+    document.write("montly payment =",(balance/12).toFixed(2),"<br>");
+   if(yourname != null)
+    {
+      document.getElementById("say hello").innerHTML  = "hello"+yourname;
+    }
+   else{
+        alert("please enter your name next time");
+    }
+    document.write("5+4=",5+4,"<br>");// this will add these two number
+    document.write("5+4="+5+4,"<br>");
+    document.write("5*4=",5*4,"<br>");
+    document.write("5-4=",5-4,"<br>");
+    document.write("max value=",Number.MAX_VALUE,"<br>");
+
+    var N = 100;
+    var ch=0;
+
+    for(var i=1; i <= N ; i++)
+    {
+        if((i%3)===0&&(i%5)===0)
+        {
+            ch=3;
+        }
+      else
+        {
+            if((i%5)===0)
+            {
+                ch = 2;
+            }
+            else {
+                if ((i % 3) === 0) {
+                    ch = 1;
+                }
+                else {
+                    ch = 4;
+                }}}
+
+                switch(ch)
+                {
+                    case 1 : document.write("fizz <br>");
+                        break;
+                    case 2 : document.write("buzz <br>");
+                        break;
+                    case 3 : document.write("fizzbuzz <br>");
+                        break;
+                    case 4 : document.write(i, "<br>");
+                        break;
+                    default: document.write("sorry some problems take place")
+                }}
+
+
+  <***********************************************************************************************88 all about function>
+
+                var custumer ={ name: " prashu panwar",address:" c-70 shahdara delhi -110094"
+                }
+
+                for( k in custumer)
+                {
+                    document.write(custumer[k], "<br>")
+                }
+                var tomsmith=["tomsmith ","main 123 ","120.50 "]
+
+
+         document.write(tomsmith[1],"<br>")
+    tomsmith[3]= "pranshu"
+    document.write(tomsmith ,"<br>")
+    tomsmith.splice(2,1 ,"west jyoti nagar","shahdara","<br>")
+    document.write("the array :", tomsmith.valueOf(),"<br>")
+    tomsmith.splice(4,1)
+    document.write("array:",tomsmith.join(","),"<br>")
+    delete tomsmith[3];
+    document.write("array:" ,tomsmith.valueOf(),"<br>")
+
+    var number = [ 4,1,3,2,5]
+
+    number.sort(function (x,y) {
+
+        return x-y;
+    })
+
+    document.write("here is your sorted array :",number.toString(),"<br>")
+
+    var combinedarray = number.concat(tomsmith)
+
+    tomsmith.pop()
+    tomsmith.push("55-125","india","jhoom jhoom")
+    tomsmith.shift()
+
+
+    for(var i=0; i<= tomsmith.length;i++ )
+    {
+        document.write(tomsmith[i],"<br>")
+    } */
+ /*function inarray(arraytocheck,value ){
+
+     for(var i =0 ; i <= arraytocheck.length ; i++)
+     {
+         if(i===value)
+         {return true}
+     }
+     return false
+ }
+
+ var randarray= [1,2,3,4,5,6]
+
+    document.write("In array:", inarray(randarray,6),"<br>")
+
+    function times2(num)
+    {
+        var var2 = 2;
+        return num*var2
+    }
+    function times3(num)
+    {
+        return num*3;
+    }
+    function multiply( func, num)
+    {
+        return func(num)
+    }
+
+    document.write( "Here is  your result",times2(4),"<br>")
+    document.write("here is your next result",times3(4),"<br>")
+
+    document.write("here is the perfect result by 2 :", multiply(times2,15),"<br>")
+    document.write("here is ur multiplcation by 3 :", multiply(times3,15),"<br>")
+var triple = function (num) {
+     return num*3;
+    
+}
+document.write("HEre is  ur new result :",triple(4),"<br>")
+
+    function getsum()
+    {
+        var sum =0;
+        for(var i=0; i<= arguments.length;i++)
+        {
+            sum += arguments[i];
+        }
+        return sum;
+    }
+    document.write(" Here is your new code to do something well :", getsum(1,2,3,4,4,5),"<br>")*/
+
+ /*function time2(thearrary) {
+
+     var newarray = [];
+     for(var i=0;i<thearrary.length ;i++)
+     {
+         newarray.push(thearrary[i]*2)
+     }
+     return newarray;
+ }
+document.write("the new double array is :",time2([1,2,3,4,5]),"<br>")*/
+ /*function factorial(num) {
+     if(num===1)
+     {
+         return 1;
+     }
+     else
+     {
+         return num*factorial(num-1);
+
+     }
+
+ }
+ function openalert(mess) {
+     alert(mess)
+
+ }
+
+
+ document.write("the factorial for 4 is :", factorial(4),"<br>")
+
+
+ <***************************************************************************************** screen alert function>
+</script>
+<!--<a href="Javascript:void(0)"onClick ="alert('hello');"> say hello<br></a>
+<a href="JavaScript:void(0)"
+   onmouseover="this.style.color ='red';"
+   onmouseout="this.style.color='blue';"
+   ondblclick="this.text='dont click too hard';"
+onmousedown="this.text='you press too hard';"
+    onmouseup="this.text='Thank you';">
+
+    Say HELLO!
+</a></a><br>
+    <input type="text" , id="randinput"
+           onchange="var dataentered = document.getElementById('randinput').value;
+    alert('User Typed ' + dataentered);" ><br><br>-->
+
+
+  <!--   <form action="#"  id="sampform">
+    <input id='charInput' type="text">
+    <p id="keydata">Key data is here</p><br/><br>
+    <input type="submit" value="submit"><br><br>
+    <input type="reset" value="reset"><br/><br>
+
+</form>
+
+<img src="gaillardia_blanket_flowers_perennial_221655.jpg" id="logo" height="130"><br>
+<button id="logbutton">Get Logo</button><br><br>
+<input id='mouseinput' type="text" size="30"><br><br>
+MOUSE X:  <input type="text" id="mouseX" > <br><br>
+MOUSE Y:  <input type="text" id="mouseY"><br><br>
+
+<button id="clearinputs"> clean input</button>
+        <script>
+    function getChar(event)
+
+    {
+       if(event.which==null)
+           return String.fromCharCode(event.keyCode);
+        else if(event.which !=0 && event.charCode !=0)
+               return String.fromCharCode(event.which);
+
+           else{
+               return null;}
+
+
+    }
+
+    document.getElementById('charInput').onKeypress=
+        function(event){
+         var char = getChar(event||window.event);
+            if(!char)
+                return false;
+
+                else
+            { document.getElementById('keydata').innerHTML= char +"was clicked";
+
+                 return true;}}
+<************************************************************88 mouse events 1>
+
+                 document.getElementById('logo').onmouseover= function (event) {
+                     document.getElementById('logo').src="675593399.jpg";
+                     document.getElementById('mouseinput').value="Mouse over image";}
+
+                     document.getElementById('logo').onmouseout= function (event)
+
+
+    {
+        document.getElementById('logo').src="gaillardia_blanket_flowers_perennial_221655.jpg";
+        document.getElementById('mouseinput').value="mouse out image";
+
+
+    }
+
+<**************************************************************************************** mouse events 2>
+    document.body.onmousemove = function (e) {
+            e = e || window.event;
+
+            var pageX = e.pageX;
+            var pageY = e.pageY;
+
+            if(pageX === undefined)
+            {
+                pageX = e.clientX + document.body.scrollLeft + document.documentElement.scrollLeft;
+                pageY = e.clientY + document.body.scrollTop + document.documentElement.scrollTop;
+            }
+
+            document.getElementById('mouseX').value = pageX;
+            document.getElementById('mouseY').value = pageY;
+    }
+
+
+    <*************************************************************88 clean the input PLAYING with input tags>
+    document.getElementById("clearinputs").onclick = function (event) {
+
+            var inputElements = document.getElementsByTagName('input');
+
+            for(var i=0; i <=inputElements.length ; i++)
+            {
+
+                if(inputElements[i].type === "text")
+                {
+                    inputElements[i].value = "";
+                }
+            }
+
+
+    }
+
+
+</script>-->
+<!-- ********************************************************************************88element stylinG-->
+<!--<div id="samplediv">
+    In this article, I’d like to reacquaint you with the humble workhorse of communication that is the paragraph. Paragraphs are everywhere. In fact, at the high risk of stating the obvious, you are reading one now. Despite their ubiquity, we frequently neglect their presentation. This is a mistake. Here, we’ll refer to some time-honored typesetting conventions, with an emphasis on readability, and offer guidance on adapting them effectively for devices and screens. We’ll see that the ability to embed fonts with @font-face is not by itself a solution to all of our typographic challenges
+</div>
+   <button id="chgBkcolor"> Background color</button><br><br>
+     <button id="chgBkimg"> Background image</button><br><br>
+     <button id="chgbdcolor">Border color</button><br><br>
+     <button id="chgbdwidth"> Border width</button><br><br>
+     <button id="chgbdstyle"> Border style</button><br><br>
+
+<script>
+document.getElementById('chgBkcolor').onclick = function (event) {
+
+    document.getElementById('samplediv').style.background="#efedcd"
+
+}
+document.getElementById('chgBkimg').onclick = function (event) {
+
+    document.getElementById('samplediv').style.backgroundImage ="url('675593399.jpg')";
+}
+document.getElementById('chgbdcolor').onclick = function (event) {
+
+    document.getElementById('samplediv').style.borderColor ="red";
+}
+document.getElementById('chgbdwidth').onclick = function (event) {
+
+    document.getElementById('samplediv').style.borderWidth ="30";
+}
+document.getElementById('chgbdstyle').onclick = function (event) {
+
+    document.getElementById('samplediv').style.borderStyle ="solid";
+}
+</script>
+-->
+<!--**************************************************************************88 PLAYING WITH URL-->
+
+<div id="samplediv">
+    In this article, I’d like to reacquaint you with the humble workhorse of communication that is the paragraph. Paragraphs are everywhere. In fact, at the high risk of stating the obvious, you are reading one now. Despite their ubiquity, we frequently neglect their presentation. This is a mistake. Here, we’ll refer to some time-honored typesetting conventions, with an emphasis on readability, and offer guidance on adapting them effectively for devices and screens. We’ll see that the ability to embed fonts with @font-face is not by itself a solution to all of our typographic challenges
+</div>
+<button id="gotogoogle"> Go to Google</button>
+<button id="forwardpage">Forward Page</button>
+<button id="backpage">Back page</button>
+<button id="reload">Reload</button>
+<script>
+    document.write("Current location : ", window.location.href,"<Br>")
+    document.write("Host Name : ", window.location.hostname, "<br>")
+    document.write("Current Path : ", window.location.pathname , "<br>")
+
+
+    document.getElementById('gotogoogle').onclick= function (event) {
+        window.location.href="https://www.google.co.in/?gfe_rd=cr&ei=V5pBWcu2OaHl8AedypTgDw";
+    }
+
+    document.getElementById('forwardpage').onclick = function (event) {
+        history.forward()
+    }
+    document.getElementById('backpage').onclick = function (event) {
+        history.back();
+    }
+
+    document.getElementById('reload').onclick =function () {
+        window.location.reload(true)
+    }
+
+</script>
+
+
+
+</body>
+</html>
